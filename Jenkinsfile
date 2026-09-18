@@ -35,7 +35,7 @@ pipeline {
 
         stage('Integration Tests on Staging') {
             steps {
-                echo 'Run integration tests on the staging environment using Postman'
+                echo 'Run integration tests on the staging environment using Postman/ testing automatic trigger'
             }
         }
 
